@@ -1,0 +1,22 @@
+{
+  "name": "CaelinCore",
+  "version": "0.1.0",
+  "summary": "A short description of CaelinCore.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/caelink/CaelinCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "caelink": "caelink@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/caelink/CaelinCore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CaelinCore/Classes/**/*"
+}

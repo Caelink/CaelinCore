@@ -1,0 +1,16 @@
+PODS:
+  - CaelinCore (0.1.0)
+
+DEPENDENCIES:
+  - CaelinCore (from `../`)
+
+EXTERNAL SOURCES:
+  CaelinCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CaelinCore: 2a6bea8e4e787fbd686fb2ae59830331059a0499
+
+PODFILE CHECKSUM: b1990579b008a6b029309fe0b273ee70e5ec527f
+
+COCOAPODS: 1.5.3

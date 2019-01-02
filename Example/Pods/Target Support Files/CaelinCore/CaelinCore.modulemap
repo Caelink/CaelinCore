@@ -1,0 +1,6 @@
+framework module CaelinCore {
+  umbrella header "CaelinCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
