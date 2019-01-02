@@ -7,19 +7,19 @@
 
 import UIKit
 
-class PrimaryButton: UIButton {
+public class PrimaryButton: UIButton {
     static let height: CGFloat          = 40
     static let outsideMargin: CGFloat   = 40
     
     let colour: UIColor
     
-    override var isEnabled: Bool {
+    override public var isEnabled: Bool {
         didSet {
             self.backgroundColor = isEnabled ? colour : InterfaceColours.steel
         }
     }
     
-    init(text: String, colour: UIColor = .red) {
+    public init(text: String, colour: UIColor = .red) {
         self.colour = colour
         super.init(frame: .zero)
         self.setTitle(text, for: .normal)
@@ -37,7 +37,7 @@ class PrimaryButton: UIButton {
 }
 
 extension PrimaryButton: OpinionatedView {
-    func buildConstraints() -> [NSLayoutConstraint] {
+    public func buildConstraints() -> [NSLayoutConstraint] {
         guard let superview = superview else {
             return []
         }

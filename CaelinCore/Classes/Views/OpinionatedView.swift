@@ -7,6 +7,6 @@
 
 import UIKit
 
-protocol OpinionatedView {
+public protocol OpinionatedView {
     func buildConstraints() -> [NSLayoutConstraint]
 }

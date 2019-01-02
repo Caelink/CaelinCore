@@ -44,13 +44,13 @@
 
 /* Begin PBXFileReference section */
 		0D603164EFD8BC59A041FA98BE0E387E /* Pods-CaelinCore_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CaelinCore_Tests-resources.sh"; sourceTree = "<group>"; };
-		0D95EB2121DD17AC00F5BF8B /* Colours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Colours.swift; path = ../CaelinCore/Classes/Views/Colours.swift; sourceTree = "<group>"; };
-		0D95EB2321DD17F200F5BF8B /* OpinionatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpinionatedView.swift; path = ../CaelinCore/Classes/Views/OpinionatedView.swift; sourceTree = "<group>"; };
-		0D95EB2521DD180900F5BF8B /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PrimaryButton.swift; path = ../CaelinCore/Classes/Views/PrimaryButton.swift; sourceTree = "<group>"; };
-		0D95EB2721DD182300F5BF8B /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Constraints.swift"; path = "../CaelinCore/Classes/Views/UIView+Constraints.swift"; sourceTree = "<group>"; };
-		0D95EB2921DD184D00F5BF8B /* Standards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Standards.swift; path = ../CaelinCore/Classes/Views/Standards.swift; sourceTree = "<group>"; };
-		0D95EB2B21DD196C00F5BF8B /* UIControl+Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIControl+Closures.swift"; path = "../CaelinCore/Classes/Views/UIControl+Closures.swift"; sourceTree = "<group>"; };
-		0D95EB2D21DD199600F5BF8B /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleButton.swift; path = ../CaelinCore/Classes/Views/CircleButton.swift; sourceTree = "<group>"; };
+		0D95EB2121DD17AC00F5BF8B /* Colours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = "<group>"; };
+		0D95EB2321DD17F200F5BF8B /* OpinionatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpinionatedView.swift; sourceTree = "<group>"; };
+		0D95EB2521DD180900F5BF8B /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		0D95EB2721DD182300F5BF8B /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		0D95EB2921DD184D00F5BF8B /* Standards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standards.swift; sourceTree = "<group>"; };
+		0D95EB2B21DD196C00F5BF8B /* UIControl+Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Closures.swift"; sourceTree = "<group>"; };
+		0D95EB2D21DD199600F5BF8B /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		10ADE1DD4E3F8C0C18F9FE740EC18945 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		12E19E9030FB3A4B3C2F993D8B1599E1 /* CaelinCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CaelinCore-dummy.m"; sourceTree = "<group>"; };
 		232EC55418E3A81C8B5E5B3905E2761C /* Pods-CaelinCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaelinCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +125,8 @@
 				0D95EB2B21DD196C00F5BF8B /* UIControl+Closures.swift */,
 				0D95EB2721DD182300F5BF8B /* UIView+Constraints.swift */,
 			);
-			path = Views;
+			name = Views;
+			path = CaelinCore/Classes/Views;
 			sourceTree = "<group>";
 		};
 		0DBC019E26E7A78CCBEA22F6EFA6B28F /* Pod */ = {

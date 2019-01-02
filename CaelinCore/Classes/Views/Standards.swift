@@ -7,8 +7,8 @@
 
 import UIKit
 
-class Standards: NSObject {
-    static func button(called name: String) -> UIButton {
+public class Standards: NSObject {
+    public static func button(called name: String) -> UIButton {
         let button = UIButton(frame: .zero)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.showsTouchWhenHighlighted = true
@@ -17,7 +17,7 @@ class Standards: NSObject {
         return button
     }
     
-    static func label(showing text: String) -> UILabel {
+    public static func label(showing text: String) -> UILabel {
         let label = UILabel(frame: .zero)
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 0
@@ -27,14 +27,14 @@ class Standards: NSObject {
         return label
     }
 
-    static func view(base colour: UIColor) -> UIView {
+    public static func view(base colour: UIColor) -> UIView {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = colour
         return view
     }
     
-    static func stack(showing views: [UIView], along axis: NSLayoutConstraint.Axis) -> UIStackView {
+    public static func stack(showing views: [UIView], along axis: NSLayoutConstraint.Axis) -> UIStackView {
         let stack = UIStackView(arrangedSubviews: views)
         stack.translatesAutoresizingMaskIntoConstraints = false
         stack.alignment = .center

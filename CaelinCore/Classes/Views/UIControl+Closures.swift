@@ -22,7 +22,7 @@ class ClosureSleeve {
     }
 }
 
-extension UIControl {
+public extension UIControl {
     func addAction(for controlEvents: UIControl.Event, _ closure: @escaping ()->()) {
         let sleeve = ClosureSleeve(closure)
         addTarget(sleeve, action: #selector(ClosureSleeve.invoke), for: controlEvents)
