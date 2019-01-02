@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D95EB2221DD17AC00F5BF8B /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95EB2121DD17AC00F5BF8B /* Colours.swift */; };
+		0D95EB2421DD17F200F5BF8B /* OpinionatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95EB2321DD17F200F5BF8B /* OpinionatedView.swift */; };
+		0D95EB2621DD180900F5BF8B /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95EB2521DD180900F5BF8B /* PrimaryButton.swift */; };
+		0D95EB2821DD182300F5BF8B /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95EB2721DD182300F5BF8B /* UIView+Constraints.swift */; };
+		0D95EB2A21DD184D00F5BF8B /* Standards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95EB2921DD184D00F5BF8B /* Standards.swift */; };
+		0D95EB2C21DD196C00F5BF8B /* UIControl+Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95EB2B21DD196C00F5BF8B /* UIControl+Closures.swift */; };
+		0D95EB2E21DD199600F5BF8B /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95EB2D21DD199600F5BF8B /* CircleButton.swift */; };
 		1CB0CC6608EBA7A54D3A84267B1055B2 /* Pods-CaelinCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 475B2CF99B67B88AAB00B96E5F563977 /* Pods-CaelinCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E908A11E9C4BB4058AC19A1C085FC8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		5051A68C0110F708DAE1D44D7E726CE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		5E6C68D9C0BE5959DB90F7A1126D06C2 /* CaelinCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A59026474C7BCF7189C3DA8470BF7288 /* CaelinCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E7C00CACEAD06DC57FC3BEEA027FFDA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4535A503B6287C330A1CBF29F8CCD6D /* ReplaceMe.swift */; };
 		A90EBC88DC1E7668034693CA33512556 /* Pods-CaelinCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F2AA5377734ACF654D85178D3FDDA4 /* Pods-CaelinCore_Tests-dummy.m */; };
 		AC0AA7AC5EC2DD4E1E6C888BA4E0028D /* Pods-CaelinCore_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F47B533A41B8AF30F8EDF0F73B7D680 /* Pods-CaelinCore_Example-dummy.m */; };
 		D779D99BBAB61C57262E78883DA7EEAD /* CaelinCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E19E9030FB3A4B3C2F993D8B1599E1 /* CaelinCore-dummy.m */; };
@@ -38,6 +44,13 @@
 
 /* Begin PBXFileReference section */
 		0D603164EFD8BC59A041FA98BE0E387E /* Pods-CaelinCore_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CaelinCore_Tests-resources.sh"; sourceTree = "<group>"; };
+		0D95EB2121DD17AC00F5BF8B /* Colours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Colours.swift; path = ../CaelinCore/Classes/Views/Colours.swift; sourceTree = "<group>"; };
+		0D95EB2321DD17F200F5BF8B /* OpinionatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpinionatedView.swift; path = ../CaelinCore/Classes/Views/OpinionatedView.swift; sourceTree = "<group>"; };
+		0D95EB2521DD180900F5BF8B /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PrimaryButton.swift; path = ../CaelinCore/Classes/Views/PrimaryButton.swift; sourceTree = "<group>"; };
+		0D95EB2721DD182300F5BF8B /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Constraints.swift"; path = "../CaelinCore/Classes/Views/UIView+Constraints.swift"; sourceTree = "<group>"; };
+		0D95EB2921DD184D00F5BF8B /* Standards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Standards.swift; path = ../CaelinCore/Classes/Views/Standards.swift; sourceTree = "<group>"; };
+		0D95EB2B21DD196C00F5BF8B /* UIControl+Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIControl+Closures.swift"; path = "../CaelinCore/Classes/Views/UIControl+Closures.swift"; sourceTree = "<group>"; };
+		0D95EB2D21DD199600F5BF8B /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleButton.swift; path = ../CaelinCore/Classes/Views/CircleButton.swift; sourceTree = "<group>"; };
 		10ADE1DD4E3F8C0C18F9FE740EC18945 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		12E19E9030FB3A4B3C2F993D8B1599E1 /* CaelinCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CaelinCore-dummy.m"; sourceTree = "<group>"; };
 		232EC55418E3A81C8B5E5B3905E2761C /* Pods-CaelinCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaelinCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,7 +74,6 @@
 		978115E6A71148F8C6D395740584CE3F /* Pods-CaelinCore_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaelinCore_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9BA57847F3223813A77C15DCCD400FFF /* CaelinCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CaelinCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A59026474C7BCF7189C3DA8470BF7288 /* CaelinCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CaelinCore-umbrella.h"; sourceTree = "<group>"; };
-		B4535A503B6287C330A1CBF29F8CCD6D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CaelinCore/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C95A8C4A772EE121854A7AD706756BEC /* Pods-CaelinCore_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CaelinCore_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CE98F447D68514A2B86E11C7C93F5259 /* Pods-CaelinCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CaelinCore_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -102,6 +114,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D95EB1E21DD172000F5BF8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D95EB2121DD17AC00F5BF8B /* Colours.swift */,
+				0D95EB2921DD184D00F5BF8B /* Standards.swift */,
+				0D95EB2321DD17F200F5BF8B /* OpinionatedView.swift */,
+				0D95EB2D21DD199600F5BF8B /* CircleButton.swift */,
+				0D95EB2521DD180900F5BF8B /* PrimaryButton.swift */,
+				0D95EB2B21DD196C00F5BF8B /* UIControl+Closures.swift */,
+				0D95EB2721DD182300F5BF8B /* UIView+Constraints.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0DBC019E26E7A78CCBEA22F6EFA6B28F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,7 +235,7 @@
 		E4B6F553C5F10C2923EACE353877654C /* CaelinCore */ = {
 			isa = PBXGroup;
 			children = (
-				B4535A503B6287C330A1CBF29F8CCD6D /* ReplaceMe.swift */,
+				0D95EB1E21DD172000F5BF8B /* Views */,
 				0DBC019E26E7A78CCBEA22F6EFA6B28F /* Pod */,
 				C03B35A45B28AEC74A42DFE571DD0D1F /* Support Files */,
 			);
@@ -392,7 +418,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D779D99BBAB61C57262E78883DA7EEAD /* CaelinCore-dummy.m in Sources */,
-				8E7C00CACEAD06DC57FC3BEEA027FFDA /* ReplaceMe.swift in Sources */,
+				0D95EB2221DD17AC00F5BF8B /* Colours.swift in Sources */,
+				0D95EB2A21DD184D00F5BF8B /* Standards.swift in Sources */,
+				0D95EB2E21DD199600F5BF8B /* CircleButton.swift in Sources */,
+				0D95EB2821DD182300F5BF8B /* UIView+Constraints.swift in Sources */,
+				0D95EB2621DD180900F5BF8B /* PrimaryButton.swift in Sources */,
+				0D95EB2421DD17F200F5BF8B /* OpinionatedView.swift in Sources */,
+				0D95EB2C21DD196C00F5BF8B /* UIControl+Closures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +462,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CaelinCore_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CaelinCore_Tests/Pods-CaelinCore_Tests.modulemap";
@@ -464,7 +496,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CaelinCore_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CaelinCore_Example/Pods-CaelinCore_Example.modulemap";
@@ -625,7 +657,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CaelinCore_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CaelinCore_Example/Pods-CaelinCore_Example.modulemap";
@@ -646,6 +678,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8FF3CF01B6D415E630D776A243D2D90 /* CaelinCore.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -658,7 +691,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CaelinCore/CaelinCore-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CaelinCore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CaelinCore/CaelinCore.modulemap";
 				PRODUCT_MODULE_NAME = CaelinCore;
@@ -666,6 +699,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -689,7 +723,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CaelinCore_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CaelinCore_Tests/Pods-CaelinCore_Tests.modulemap";
@@ -710,6 +744,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8FF3CF01B6D415E630D776A243D2D90 /* CaelinCore.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -722,7 +757,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CaelinCore/CaelinCore-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CaelinCore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CaelinCore/CaelinCore.modulemap";
 				PRODUCT_MODULE_NAME = CaelinCore;
