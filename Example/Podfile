@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CaelinCore_Example' do
+  pod 'CaelinCore', :path => '../'
+
+  target 'CaelinCore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
