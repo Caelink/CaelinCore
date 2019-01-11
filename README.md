@@ -1,24 +1,21 @@
 # CaelinCore
 
-[![CI Status](https://img.shields.io/travis/caelink/CaelinCore.svg?style=flat)](https://travis-ci.org/caelink/CaelinCore)
-[![Version](https://img.shields.io/cocoapods/v/CaelinCore.svg?style=flat)](https://cocoapods.org/pods/CaelinCore)
-[![License](https://img.shields.io/cocoapods/l/CaelinCore.svg?style=flat)](https://cocoapods.org/pods/CaelinCore)
-[![Platform](https://img.shields.io/cocoapods/p/CaelinCore.svg?style=flat)](https://cocoapods.org/pods/CaelinCore)
-
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the Example directory first. Right now there's nothing useful in the example app, but as I get more direction with this project that might change.
 
 ## Requirements
 
 ## Installation
 
-CaelinCore is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+CaelinCore is available through my private pod repository. To install
+it, add the following line to your Podfile:
 
 ```ruby
 pod 'CaelinCore'
 ```
+
+and add the pod to your personal pod repository, or request access from me directly and I'll give access if I feel like it's reasonable.
 
 ## Author
 
