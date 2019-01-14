@@ -29,9 +29,9 @@ public extension UIView {
     public func snapToBounds(view: UIView, leaving margin: CGFloat = 0) {
         addConstraints([
             view.leftAnchor.constraint(equalTo: leftAnchor, constant: margin),
-            view.rightAnchor.constraint(equalTo: rightAnchor, constant: margin),
+            view.rightAnchor.constraint(equalTo: rightAnchor, constant: -margin),
             view.topAnchor.constraint(equalTo: topAnchor, constant: margin),
-            view.bottomAnchor.constraint(equalTo: bottomAnchor, constant: margin)
+            view.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -margin)
             ])
     }
 }
