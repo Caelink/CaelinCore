@@ -1,5 +1,7 @@
 # CaelinCore
 
+[![codebeat badge](https://codebeat.co/badges/fa0b2065-0867-4e67-8773-ec1877173ea3)](https://codebeat.co/projects/github-com-caelink-caelincore-master)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first. Right now there's nothing useful in the example app, but as I get more direction with this project that might change.
