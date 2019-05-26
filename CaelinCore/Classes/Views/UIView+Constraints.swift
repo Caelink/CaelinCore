@@ -8,7 +8,7 @@
 import UIKit
 
 public extension UIView {
-    public func verticalCascadeLayout(of views: [UIView], from anchor: NSLayoutYAxisAnchor, margin: CGFloat) {
+    func verticalCascadeLayout(of views: [UIView], from anchor: NSLayoutYAxisAnchor, margin: CGFloat) {
         guard let first = views.first else {
             return
         }
@@ -26,7 +26,7 @@ public extension UIView {
         }
     }
     
-    public func snapToBounds(view: UIView, leaving margin: CGFloat = 0) {
+    func snapToBounds(view: UIView, leaving margin: CGFloat = 0) {
         addConstraints([
             view.leftAnchor.constraint(equalTo: leftAnchor, constant: margin),
             view.rightAnchor.constraint(equalTo: rightAnchor, constant: -margin),

@@ -8,7 +8,7 @@
 import UIKit
 
 public extension UIColor {
-    public convenience init(red: Int, green: Int, blue: Int) {
+    convenience init(red: Int, green: Int, blue: Int) {
         guard red < 256, green < 256, blue < 256 else {
             self.init(red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0)
             return
