@@ -25,4 +25,15 @@ public struct InterfaceColours {
     public static var orange: UIColor { return UIColor(red: 239, green: 153, blue: 80) }
     public static var rust: UIColor { return UIColor(red: 215, green: 156, blue: 140) }
     public static var offwhite: UIColor { return UIColor(red: 255, green: 250, blue: 250) }
+
+    public static var allColours: [UIColor] {
+        return [
+            InterfaceColours.green,
+            InterfaceColours.lightBlue,
+            InterfaceColours.steel,
+            InterfaceColours.orange,
+            InterfaceColours.rust,
+            InterfaceColours.offwhite
+        ]
+    }
 }
