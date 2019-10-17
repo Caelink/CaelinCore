@@ -23,6 +23,7 @@ public class Standards: NSObject {
         label.numberOfLines = 0
         label.font = UIFont.systemFont(ofSize: 26.0)
         label.textAlignment = .center
+        label.textColor = .label
         label.text = text
         return label
     }
