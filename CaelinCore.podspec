@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CaelinCore'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Core Utilities to make writing apps easier'
 
   s.description      = <<-DESC

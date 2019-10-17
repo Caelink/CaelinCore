@@ -13,7 +13,7 @@ public class Standards: NSObject {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.showsTouchWhenHighlighted = true
         button.setTitle(name, for: .normal)
-        button.setTitleColor(.black, for: .normal)
+        button.setTitleColor(.label, for: .normal)
         return button
     }
     
@@ -23,7 +23,6 @@ public class Standards: NSObject {
         label.numberOfLines = 0
         label.font = UIFont.systemFont(ofSize: 26.0)
         label.textAlignment = .center
-        label.textColor = .label
         label.text = text
         return label
     }
