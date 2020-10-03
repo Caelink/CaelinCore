@@ -8,6 +8,7 @@
 import UIKit
 
 public class Standards: NSObject {
+    @available(iOS 13.0, *)
     public static func button(called name: String) -> UIButton {
         let button = UIButton(frame: .zero)
         button.translatesAutoresizingMaskIntoConstraints = false
